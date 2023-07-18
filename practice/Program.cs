@@ -11,6 +11,7 @@ do
 
     switch (Console.ReadLine())
     {
+
         case "/":
             resalt = Namber / Namber2;
             break;
@@ -25,6 +26,8 @@ do
             break;
         case "%":
             resalt = Namber % Namber2;
+            break;
+        default: Console.WriteLine("no such answer");
             break;
     }
     Console.WriteLine($"resalt = {resalt}");
